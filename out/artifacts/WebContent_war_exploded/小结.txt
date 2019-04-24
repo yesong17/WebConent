@@ -1,0 +1,19 @@
+1.什么是Ajax?
+不用刷新页面，但可以和服务器端进行通信获取数据更新网页局部信息。
+2.使用XMLHttpRequest对象实现Ajax
+
+3.Ajax传输数据的三种数据方式？
+ HTML:传输的数据格式有限，代码需要拼装完成。
+ XML:笨重，解析困难，不易使用。
+ JSON:小巧，有面向对象的特征，JS原生支持 。
+
+4.JQuery
+ a.load  (url,args)
+ b.$get,$post,$getJSON,
+   $.get(url,args,function(data){},"JSON");
+   $.post(url,args,function(data){},"JSON");
+   $.getJson(url,args,function(data){});
+ c.data :xml,html,JSON
+
+
+
